@@ -1,20 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import styles from './header.module.css'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
+  <div className={styles.header}>
+    <div className={styles.headerBody}>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -26,6 +16,14 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+
+      <nav className={styles.links}>
+        <a href="/">MDN</a>
+        <a href="/">Documentation</a>
+        <a href="https://github.com/parcel-bundler/parcel" target="_blank">
+          GitHub
+        </a>
+      </nav>
     </div>
   </div>
 )

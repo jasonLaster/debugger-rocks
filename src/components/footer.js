@@ -9,7 +9,7 @@ export default () => (
       Get Started
     </a>
     <div className={styles.content}>
-      <nav>
+      <nav className={styles.nav}>
         <h3>Documentation</h3>
         <div>
           <ul>

@@ -44,7 +44,7 @@
   margin-bottom: 0px;
 }
 
-nav ul {
+.nav ul {
   list-style-type: none;
   padding: 0;
   padding-right: 0px;
@@ -53,12 +53,12 @@ nav ul {
   padding-right: 80px;
 }
 
-nav a:hover,
+.nav a:hover,
 .copyright a:hover {
   color: #27ae60;
 }
 
-nav a,
+.nav a,
 .copyright a {
   color: #e7dacb;
   text-decoration: none;

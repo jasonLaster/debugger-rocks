@@ -1,0 +1,36 @@
+.header {
+  background: #21374b;
+  margin-bottom: 1.45rem;
+  position: sticky;
+  top: 0;
+}
+
+.headerBody {
+  margin: 0 auto;
+  max-width: 960;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.header h1 {
+  border: none;
+  margin: 0px;
+  font-weight: 303;
+  font-size: 1.5rem;
+}
+
+.links {
+  position: absolute;
+  top: -5px;
+  right: 20px;
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.links a {
+  color: #e7dacb;
+  padding-left: 20px;
+  text-decoration: none;
+  transition: color 125ms;
+}
