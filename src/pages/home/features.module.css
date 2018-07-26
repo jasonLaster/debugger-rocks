@@ -5,7 +5,15 @@
   margin-top: 20px;
 }
 
-.features section {
+section {
   width: 333px;
   padding: 0 20px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.5em;
 }
