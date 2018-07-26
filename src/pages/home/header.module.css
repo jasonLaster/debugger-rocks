@@ -1,0 +1,44 @@
+.header {
+  background: #21374b;
+  color: #e7dacb;
+  text-align: center;
+  padding: 80px 0 50px 0;
+  font-family: 'Gill Sans', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+}
+
+.links {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.links a {
+  color: #e7dacb;
+  text-decoration: none;
+  padding-left: 20px;
+  transition: color 125ms;
+}
+
+.h1 {
+  border: none;
+}
+
+.h2 {
+  font-weight: 200;
+  border: none;
+}
+
+.gallery {
+  width: 80vw;
+  margin: auto;
+  max-width: 800px;
+}
+
+.get-started {
+  background: #e7dacb;
+  color: #21374b;
+}
