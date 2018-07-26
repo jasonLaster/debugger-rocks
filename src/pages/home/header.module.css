@@ -38,6 +38,23 @@
   max-width: 800px;
 }
 
+.button {
+  display: inline-block;
+  padding: 8px 0;
+  width: 180px;
+  color: #e7dacb;
+  border: 1px solid #e7dacb;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  font-size: 20px;
+  transition: opacity 200ms;
+  text-align: center;
+  margin: 0 5px;
+  margin-bottom: 0px;
+}
+
 .get-started {
   background: #e7dacb;
   color: #21374b;
