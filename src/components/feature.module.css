@@ -1,0 +1,31 @@
+.feature {
+  display: flex;
+  align-items: normal;
+  margin: 0 auto 12px auto;
+}
+
+.feature:last-child {
+  margin-bottom: 0;
+}
+
+.img {
+  flex: 0 0 280px;
+  margin: 0;
+  padding: 10px;
+  height: 200px;
+}
+
+.description {
+  flex: 1;
+  margin-left: 18px;
+  padding: 12px;
+}
+
+.name {
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+
+.excerpt {
+  margin: 0;
+}

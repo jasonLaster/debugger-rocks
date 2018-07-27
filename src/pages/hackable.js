@@ -1,15 +1,17 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
 const SecondPage = () => (
   <Layout>
     <h1>Hackable</h1>
-    <p>Welcome to page 2</p>
+    <p>Welcome to page 2...</p>
 
     <h2>1. Pinned Breakpoints</h2>
-    <p>Welcome to page 2</p>
+    <p>
+      Welcome to page 2. Contributed to by 500+ community members who believe
+      that the best web Dev Tools are built by web devs.
+    </p>
 
     <h2>2. Source Mapped Variables</h2>
     <p>Welcome to page 2</p>
