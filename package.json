@@ -1,13 +1,15 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "debugger.rocks",
+  "description": "Debugger Website",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jason Laster <jason.laster.11@gmail.com>",
   "dependencies": {
     "classnames": "^2.2.6",
     "gatsby": "next",
     "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-typography": "^1.7.19",
+    "gatsby-plugin-typography": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-remark": "next",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
@@ -15,9 +17,7 @@
     "typography": "^0.16.17",
     "typography-theme-github": "^0.15.10"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jasonLaster/debugger-rocks"
   }
 }

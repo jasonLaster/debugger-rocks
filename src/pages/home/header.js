@@ -8,9 +8,13 @@ export default () => (
   <div className={styles.header}>
     <div>
       <nav className={styles.links}>
-        <a href="/">MDN</a>
-        <a href="/">Documentation</a>
-        <a href="https://github.com/parcel-bundler/parcel" target="_blank">
+        <a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger">
+          MDN
+        </a>
+        <a href="https://firefox-dev.tools/debugger.html/#documentation">
+          Documentation
+        </a>
+        <a href="https://github.com/devtools-html/debugger" target="_blank">
           GitHub
         </a>
       </nav>

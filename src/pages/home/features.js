@@ -15,15 +15,6 @@ export default () => (
         </p>
       </section>
       <section>
-        <Link to="/community">
-          <h3>🐠 Community</h3>
-        </Link>
-        <p>
-          Contributed to by 500+ community members who believe that the best web
-          Dev Tools are built by web devs.
-        </p>
-      </section>
-      <section>
         <Link to="/frameworks">
           <h3>❤️ Frameworks</h3>
         </Link>
@@ -41,6 +32,16 @@ export default () => (
           just as good with transpiled files as native files!
         </p>
       </section>
+      <section>
+        <Link to="/community">
+          <h3>🐠 Community</h3>
+        </Link>
+        <p>
+          Contributed to by 500+ community members who believe that the best web
+          Dev Tools are built by web devs.
+        </p>
+      </section>
+
       <section>
         <Link to="/time-travel">
           <h3>🎥 Time Travel</h3>
