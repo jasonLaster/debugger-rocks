@@ -1,0 +1,27 @@
+.post {
+}
+
+h2 {
+  margin-top: 4rem;
+  font-weight: normal;
+}
+
+p {
+  color: #686868;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.post section {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.inlineCode {
+  background: #ececec;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #167aba;
+  border: 1px solid #b1b1b1;
+  margin-left: 0.3rem;
+}
